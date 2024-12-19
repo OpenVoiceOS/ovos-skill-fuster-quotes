@@ -1,0 +1,27 @@
+{
+    "Fuster.voc": [
+        "Joan Fuster",
+        "Fuster"
+    ],
+    "birth.voc": [
+        "birth",
+        "birthday",
+        "born"
+    ],
+    "death.voc": [
+        "death",
+        "die"
+    ],
+    "live.voc": [
+        "alive",
+        "live"
+    ],
+    "quote.voc": [
+        "quote",
+        "say",
+        "saying"
+    ],
+    "when.voc": [
+        "when"
+    ]
+}

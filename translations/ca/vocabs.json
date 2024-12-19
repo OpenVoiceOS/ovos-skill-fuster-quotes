@@ -1,0 +1,37 @@
+{
+    "Fuster.voc": [
+        "Joan Fuster",
+        "Fuster"
+    ],
+    "birth.voc": [
+        "aniversari",
+        "dia de naixement",
+        "dia del naixement",
+        "naixement",
+        "nascut",
+        "néixer",
+        "nàixer"
+    ],
+    "death.voc": [
+        "morir",
+        "mort",
+        "mort",
+        "morí",
+        "va morir"
+    ],
+    "live.voc": [
+        "va viure",
+        "visqué",
+        "viu",
+        "vida"
+    ],
+    "quote.voc": [
+        "cita",
+        "digué",
+        "va dir",
+        "dita"
+    ],
+    "when.voc": [
+        "quan"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "skill_id": "ovos-skill-joan-fuster.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-joan-fuster",
+  "name": "Cites de Joan Fuster",
+  "description": "La cita del dia de Fuster",
+  "examples": [
+    "Digue’m un aforisme del Fuster",
+    "Què diria Joan Fuster, aquí?",
+    "Què diu en Fuster?",
+    "Algun pensament fusterià?",
+    "Digues-me alguna cosa fusteriana",
+    "Vull sentir un aforisme fusterià",
+    "Necessito alguna idea fusteriana",
+    "Què pensen els fusterians?",
+    "La frase del Fuster del dia"
+  ],
+  "tags": [
+    "diari",
+    "entreteniment"
+  ]
+}
