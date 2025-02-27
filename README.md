@@ -1,40 +1,39 @@
 # Joan Fuster Quotes Skill
 
-This skill provides various quotes and information about Joan Fuster, a Valencian essayist, poet, and philosopher, famous for his work on Catalan culture and identity. The skill responds to different intents that provide quotes, facts, and biographical details about Fuster.
+Aquesta habilitat proporciona diverses citacions i informació sobre Joan Fuster, un assagista, poeta i filòsof valencià, famós pel seu treball sobre la cultura i identitat catalanes. L'habilitat respon a diferents intents que proporcionen citacions, fets i detalls biogràfics sobre Fuster.
 
 ![](./gui/all/fuster.png)
 
-## Features
+## Característiques
 
-- **Show Quotes**: Responds to intents related to quotes from Joan Fuster.
-- **Show Birth and Death Information**: Provides details on when Joan Fuster was born and passed away.
-- **Show Fuster's Life Events**: Answers questions about Fuster's life, such as when he was alive.
-- **GUI Integration**: Displays an image of Joan Fuster alongside quotes and information.
+- **Mostrar Citacions**: Respon als intents relacionats amb citacions de Joan Fuster.
+- **Mostrar Informació sobre Naixement i Mort**: Proporciona detalls sobre quan Joan Fuster va néixer i quan va morir.
+- **Mostrar Esdeveniments de la Vida de Fuster**: Respon a preguntes sobre la vida de Fuster, com ara quan va estar viu.
+- **Integració amb GUI**: Mostra una imatge de Joan Fuster juntament amb les citacions i la informació.
 
-## Installation
+## Instal·lació
 
-To install this skill, follow the instructions for adding a new skill to your OVOS environment.
+Per instal·lar aquesta habilitat, segueix les instruccions per afegir una nova habilitat al teu entorn OVOS.
 
 ```bash
 pip install ovos-skill-fuster-quotes
 ```
 
-## Usage
+## Ús
 
-Once the skill is installed and running, you can invoke it using voice commands like:
+Un cop l'habilitat estigui instal·lada i en funcionament, pots invocar-la utilitzant ordres de veu com:
 
-- "Tell me a quote from Joan Fuster."
-- "When was Joan Fuster born?"
-- "When did Joan Fuster die?"
-- "Who was Joan Fuster?"
-- "Was Joan Fuster alive during the 20th century?"
+- "Digue'm una citació de Joan Fuster."
+- "Quan va néixer Joan Fuster?"
+- "Quan va morir Joan Fuster?"
+- "Qui era Joan Fuster?"
 
-## Contribution
+## Contribució
 
-Feel free to fork this repository and contribute. If you have suggestions or improvements, open an issue or create a pull request!
+No dubtis a fer un fork d'aquest repositori i contribuir. Si tens suggeriments o millores, obre un problema o crea una sol·licitud de canvi!
 
-## Credits
+## Crèdits
 
 <img src="img.png" width="128"/>
 
-> This plugin was funded by the Ministerio para la Transformación Digital y de la Función Pública and Plan de Recuperación, Transformación y Resiliencia - Funded by EU – NextGenerationEU within the framework of the project ILENIA with reference 2022/TL22/00215337
+> Aquest complement va ser finançat pel Ministeri per a la Transformació Digital i de la Funció Pública i pel Pla de Recuperació, Transformació i Resiliència - Finançat per la UE – NextGenerationEU dins del marc del projecte ILENIA amb referència 2022/TL22/00215337
