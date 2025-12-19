@@ -1,8 +1,8 @@
 # Changelog
 
-## [0.0.5a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a2) (2025-12-19)
+## [0.0.5a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a3) (2025-12-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a1...0.0.5a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a1...0.0.5a3)
 
 **Merged pull requests:**
 
