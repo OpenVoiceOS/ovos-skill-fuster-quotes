@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.5a5](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a5) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a4...0.0.5a5)
+
+**Merged pull requests:**
+
+- Update stefanzweifel/git-auto-commit-action action to v7 [\#11](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pilosus/action-pip-license-checker action to v3 [\#10](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.5a4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a4) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a3...0.0.5a4)
