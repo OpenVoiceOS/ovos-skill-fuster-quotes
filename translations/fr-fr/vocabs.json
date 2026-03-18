@@ -6,6 +6,7 @@
   "birth.voc": [
     "anniversaire",
     "naissance",
+    "est né",
     "né",
     "naître"
   ],
@@ -15,7 +16,7 @@
     "mourir"
   ],
   "live.voc": [
-    "vie",
+    "a vécu",
     "vécu",
     "vivait"
   ],
