@@ -1,0 +1,22 @@
+{
+  "fuster_quotes.intent": [
+    "as-tu une citation de Joan Fuster",
+    "donne-moi un aphorisme de Joan Fuster",
+    "donne-moi une citation de Fuster",
+    "donne-moi une citation de Joan Fuster",
+    "donne-moi une pensée de Joan Fuster",
+    "je veux entendre un aphorisme de Fuster",
+    "je veux une citation de Joan Fuster",
+    "la citation du jour de Joan Fuster",
+    "que dirait Joan Fuster",
+    "que dit Fuster",
+    "que dit Joan Fuster",
+    "quelle est la citation du jour de Joan Fuster",
+    "donne-moi la citation du jour de Joan Fuster",
+    "tu as une citation de Joan Fuster"
+  ],
+  "who.intent": [
+    "qui est [Joan] Fuster",
+    "qui était [Joan] Fuster"
+  ]
+}
