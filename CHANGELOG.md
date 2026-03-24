@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.6a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.6a1) (2026-03-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a5...0.0.6a1)
+
+**Merged pull requests:**
+
+- fix: rename bare lang code locale directories [\#14](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/14) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- Add French Joan Fuster locale [\#13](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/13) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [0.0.5a5](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a5) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a4...0.0.5a5)
