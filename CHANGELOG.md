@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.6a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.6a2) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.6a1...0.0.6a2)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#16](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/16) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#15](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/15) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.6a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.6a1) (2026-03-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a5...0.0.6a1)
