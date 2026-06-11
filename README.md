@@ -34,6 +34,8 @@ No dubtis a fer un fork d'aquest repositori i contribuir. Si tens suggeriments o
 
 ## Crèdits
 
+This plugin was developed by [TigreGotico](https://tigregotico.pt) for OpenVoiceOS under the [ILENIA](https://proyectoilenia.es) project.
+
 <img src="img.png" width="128"/>
 
-> Aquest complement va ser finançat pel Ministeri per a la Transformació Digital i de la Funció Pública i pel Pla de Recuperació, Transformació i Resiliència - Finançat per la UE – NextGenerationEU dins del marc del projecte ILENIA amb referència 2022/TL22/00215337
+> Aquest complement va ser finançat pel Ministeri per a la Transformació Digital i de la Funció Pública i pel Pla de Recuperació, Transformació i Resiliència - Finançat per la UE – NextGenerationEU dins del marc del projecte [ILENIA](https://proyectoilenia.es) amb referència 2022/TL22/00215337
