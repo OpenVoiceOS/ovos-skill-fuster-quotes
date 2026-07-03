@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-fuster-quotes"
+description = "quotes and basic info about the essayist Joan Fuster"
+readme = "README.md"
+authors = [
+    { name = "OpenVoiceOS", email = "jarbasai@mailfence.com" }
+]
+license = { text = "Apache2.0" }
+keywords = ["ovos", "skill", "plugin"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "ovos-workshop>=8.0.0,<9.0.0",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-timeout",
+    "ovoscope>=1.0.1a1",
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes"
+
+[project.entry-points."ovos.plugin.skill"]
+"ovos-skill-fuster-quotes.openvoiceos" = "ovos_skill_fuster_quotes:JoanFusterQuotesSkill"
+
+[tool.setuptools]
+package-dir = { "ovos_skill_fuster_quotes" = "" }
+packages = ["ovos_skill_fuster_quotes"]
+
+[tool.setuptools.package-data]
+"ovos_skill_fuster_quotes" = ["*.json", "locale/**", "gui/**"]
+
+[tool.setuptools.dynamic]
+version = { attr = "version.__version__" }
