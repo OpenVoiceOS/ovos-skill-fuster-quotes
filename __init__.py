@@ -20,21 +20,21 @@ class JoanFusterQuotesSkill(OVOSSkill):
         self.speak(utterance, wait=True)
         self.gui.release()
 
-    @intent_handler(IntentBuilder("FusterLive").require('Fuster').require('when').require('live'))
+    @intent_handler(IntentBuilder("FusterLive").require('fuster').require('when').require('live'))
     def handle_live(self, message):
         utterance = self.dialog_renderer.render("live", {})
         self.show_fuster(utterance)
         self.speak(utterance, wait=True)
         self.gui.release()
 
-    @intent_handler(IntentBuilder("FusterBirth").require('Fuster').require('birth'))
+    @intent_handler(IntentBuilder("FusterBirth").require('fuster').require('birth'))
     def handle_birth(self, message):
         utterance = self.dialog_renderer.render("when_was_joan_fuster_born", {})
         self.show_fuster(utterance)
         self.speak(utterance, wait=True)
         self.gui.release()
 
-    @intent_handler(IntentBuilder("FusterDeath").require('Fuster').require('death'))
+    @intent_handler(IntentBuilder("FusterDeath").require('fuster').require('death'))
     def handle_death(self, message):
         utterance = self.dialog_renderer.render("when_did_joan_fuster_die", {})
         self.show_fuster(utterance)
