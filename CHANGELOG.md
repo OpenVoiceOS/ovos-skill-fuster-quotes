@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a1) (2026-07-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.6a3...0.0.7a1)
+
+**Merged pull requests:**
+
+- fix: en-US intent definitions + OVOS-INTENT-2 §2 base-name compliance [\#21](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/21) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.6a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.6a3) (2026-06-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.6a2...0.0.6a3)
+
+**Merged pull requests:**
+
+- docs: add TigreGotico attribution, link ILENIA [\#19](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.6a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.6a2) (2026-04-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.6a1...0.0.6a2)
