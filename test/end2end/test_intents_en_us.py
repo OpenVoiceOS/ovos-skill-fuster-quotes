@@ -23,9 +23,9 @@ class TestFusterIntentsEnUS(unittest.TestCase):
     def tearDownClass(cls):
         cls.minicroft.stop()
 
-    def _run(self, text):
+    def _run(self, text, pipeline=None):
         session = Session("test-session")
-        session.pipeline = [
+        session.pipeline = pipeline or [
             "ovos-padatious-pipeline-plugin-high",
             "ovos-padatious-pipeline-plugin-medium",
         ]
@@ -38,6 +38,13 @@ class TestFusterIntentsEnUS(unittest.TestCase):
         capture.capture(utterance, timeout=30)
         return capture.finish()
 
+    def _run_adapt(self, text):
+        return self._run(text, pipeline=[
+            "ovos-adapt-pipeline-plugin-high",
+            "ovos-adapt-pipeline-plugin-medium",
+            "ovos-adapt-pipeline-plugin-low",
+        ])
+
     def test_fuster_quote(self):
         messages = self._run("tell me a fuster quote")
         types = [m.msg_type for m in messages]
@@ -48,4 +55,22 @@ class TestFusterIntentsEnUS(unittest.TestCase):
         messages = self._run("who was Joan Fuster")
         types = [m.msg_type for m in messages]
         self.assertIn(f"{SKILL_ID}:who.intent", types)
+        self.assertTrue(any("speak" in t for t in types))
+
+    def test_fuster_live(self):
+        messages = self._run_adapt("when was Fuster alive")
+        types = [m.msg_type for m in messages]
+        self.assertIn(f"{SKILL_ID}:FusterLive", types)
+        self.assertTrue(any("speak" in t for t in types))
+
+    def test_fuster_birth(self):
+        messages = self._run_adapt("when was Joan Fuster born")
+        types = [m.msg_type for m in messages]
+        self.assertIn(f"{SKILL_ID}:FusterBirth", types)
+        self.assertTrue(any("speak" in t for t in types))
+
+    def test_fuster_death(self):
+        messages = self._run_adapt("when did Joan Fuster die")
+        types = [m.msg_type for m in messages]
+        self.assertIn(f"{SKILL_ID}:FusterDeath", types)
         self.assertTrue(any("speak" in t for t in types))
