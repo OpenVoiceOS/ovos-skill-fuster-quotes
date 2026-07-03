@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a2) (2026-07-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a1...0.0.7a2)
+
+**Merged pull requests:**
+
+- chore: add ovoscope end2end intent-routing tests [\#18](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/18) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a1) (2026-07-03)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.6a3...0.0.7a1)
@@ -45,19 +53,19 @@
 
 ## [0.0.5a4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a4) (2025-12-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a3...0.0.5a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a2...0.0.5a4)
 
 **Merged pull requests:**
 
 - Update dependency python to 3.14 [\#4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/4) ([renovate[bot]](https://github.com/apps/renovate))
 
-## [0.0.5a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a3) (2025-12-19)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a2...0.0.5a3)
-
 ## [0.0.5a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a2) (2025-12-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a1...0.0.5a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a3...0.0.5a2)
+
+## [0.0.5a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a1...0.0.5a3)
 
 **Merged pull requests:**
 
