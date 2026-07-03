@@ -1,0 +1,4 @@
+ovoscope>=1.0.1a1
+ovos-padatious>=1.0.0,<2.0.0
+pytest
+pytest-timeout
