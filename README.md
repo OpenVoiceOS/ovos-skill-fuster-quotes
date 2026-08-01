@@ -1,38 +1,38 @@
 # Joan Fuster Quotes Skill
 
-Aquesta habilitat proporciona diverses citacions i informació sobre Joan Fuster, un assagista, poeta i filòsof valencià, famós pel seu treball sobre la cultura i identitat catalanes. L'habilitat respon a diferents intents que proporcionen citacions, fets i detalls biogràfics sobre Fuster.
+This skill gives quotes and biographical facts about Joan Fuster, a Valencian essayist, poet, and philosopher known for his work on Catalan culture and identity. The skill answers voice requests for quotes, facts, and details about his life.
 
 ![](./gui/all/fuster.png)
 
-## Característiques
+## Features
 
-- **Mostrar Citacions**: Respon als intents relacionats amb citacions de Joan Fuster.
-- **Mostrar Informació sobre Naixement i Mort**: Proporciona detalls sobre quan Joan Fuster va néixer i quan va morir.
-- **Mostrar Esdeveniments de la Vida de Fuster**: Respon a preguntes sobre la vida de Fuster, com ara quan va estar viu.
-- **Integració amb GUI**: Mostra una imatge de Joan Fuster juntament amb les citacions i la informació.
+- **Quotes**: answers requests for quotes from Joan Fuster.
+- **Birth and death**: gives the dates when Joan Fuster was born and when he died.
+- **Life events**: answers questions about Fuster's life, such as when he was alive.
+- **GUI**: shows an image of Joan Fuster together with the quote or fact.
 
-## Instal·lació
+## Install
 
-Per instal·lar aquesta habilitat, segueix les instruccions per afegir una nova habilitat al teu entorn OVOS.
+Install this skill with pip:
 
 ```bash
 pip install ovos-skill-fuster-quotes
 ```
 
-## Ús
+## Usage
 
-Un cop l'habilitat estigui instal·lada i en funcionament, pots invocar-la utilitzant ordres de veu com:
+After you install the skill, use voice commands such as:
 
-- "Digue'm una citació de Joan Fuster."
-- "Quan va néixer Joan Fuster?"
-- "Quan va morir Joan Fuster?"
-- "Qui era Joan Fuster?"
+- "Tell me a quote from Joan Fuster."
+- "When was Joan Fuster born?"
+- "When did Joan Fuster die?"
+- "Who was Joan Fuster?"
 
-## Contribució
+## Related projects
 
-No dubtis a fer un fork d'aquest repositori i contribuir. Si tens suggeriments o millores, obre un problema o crea una sol·licitud de canvi!
+- [OpenVoiceOS/ovos-workshop](https://github.com/OpenVoiceOS/ovos-workshop) — the skill framework this skill builds on.
 
-## Crèdits
+## Credits
 
 This plugin was developed by [TigreGotico](https://tigregotico.pt) for OpenVoiceOS under the [ILENIA](https://proyectoilenia.es) project.
 
