@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.7a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a3) (2026-08-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a2...0.0.7a3)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#25](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/25) ([JarbasAl](https://github.com/JarbasAl))
+- feat: add da-DK and sv-SE translations [\#24](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/24) ([andlo](https://github.com/andlo))
+
 ## [0.0.7a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a2) (2026-07-03)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a1...0.0.7a2)
