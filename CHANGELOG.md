@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.7a4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a4) (2026-08-12)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a3...0.0.7a4)
+
+**Merged pull requests:**
+
+- test: add golden-utterance end2end suite \(en-US\) [\#27](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/27) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.7a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a3) (2026-08-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a2...0.0.7a3)
@@ -62,19 +70,19 @@
 
 ## [0.0.5a4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a4) (2025-12-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a2...0.0.5a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a3...0.0.5a4)
 
 **Merged pull requests:**
 
 - Update dependency python to 3.14 [\#4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/4) ([renovate[bot]](https://github.com/apps/renovate))
 
-## [0.0.5a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a2) (2025-12-19)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a3...0.0.5a2)
-
 ## [0.0.5a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a3) (2025-12-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a1...0.0.5a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a2...0.0.5a3)
+
+## [0.0.5a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a2) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a1...0.0.5a2)
 
 **Merged pull requests:**
 
