@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.7a5](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a5) (2026-08-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a4...0.0.7a5)
+
+**Merged pull requests:**
+
+- translate\(kab\): update when\_was\_joan\_fuster\_born.dialog [\#31](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/31) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab\): update death.voc [\#30](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/30) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab\): update when.voc [\#29](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/29) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [0.0.7a4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a4) (2026-08-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a3...0.0.7a4)
