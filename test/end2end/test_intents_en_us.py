@@ -80,13 +80,6 @@ class TestFusterIntentsEnUS(unittest.TestCase):
         capture.capture(utterance, timeout=30)
         return capture.finish()
 
-    def _run_adapt(self, text):
-        return self._run(text, pipeline=[
-            "ovos-adapt-pipeline-plugin-high",
-            "ovos-adapt-pipeline-plugin-medium",
-            "ovos-adapt-pipeline-plugin-low",
-        ])
-
     def test_fuster_quote(self):
         messages = self._run("tell me a fuster quote")
         types = [m.msg_type for m in messages]
@@ -100,19 +93,19 @@ class TestFusterIntentsEnUS(unittest.TestCase):
         self.assertIn(SpecMessage.SPEAK, types)
 
     def test_fuster_live(self):
-        messages = self._run_adapt("when was Fuster alive")
+        messages = self._run("when was Fuster alive")
         types = [m.msg_type for m in messages]
-        self.assertIn(f"{SKILL_ID}:FusterLive", types)
+        self.assertTrue(_candidates("FusterLive.intent") & set(types))
         self.assertIn(SpecMessage.SPEAK, types)
 
     def test_fuster_birth(self):
-        messages = self._run_adapt("when was Joan Fuster born")
+        messages = self._run("when was Joan Fuster born")
         types = [m.msg_type for m in messages]
-        self.assertIn(f"{SKILL_ID}:FusterBirth", types)
+        self.assertTrue(_candidates("FusterBirth.intent") & set(types))
         self.assertIn(SpecMessage.SPEAK, types)
 
     def test_fuster_death(self):
-        messages = self._run_adapt("when did Joan Fuster die")
+        messages = self._run("when did Joan Fuster die")
         types = [m.msg_type for m in messages]
-        self.assertIn(f"{SKILL_ID}:FusterDeath", types)
+        self.assertTrue(_candidates("FusterDeath.intent") & set(types))
         self.assertIn(SpecMessage.SPEAK, types)

@@ -24,8 +24,7 @@ versions have been observed to normalize the ``.intent`` filename suffix
 differently on that field (current OVOS-INTENT-2 naming drops it, older
 pinned versions keep it) -- candidates cover both so the suite isn't
 pinned to whichever version happens to be installed, same rationale as
-documented in ovos-skill-volume's end2end suite. Adapt intents
-(``FusterLive`` etc.) never carry a suffix either way. Capture uses the
+documented in ovos-skill-volume's end2end suite. Capture uses the
 default eof (``ovos.utterance.handled``) with a shared, reused session id
 (matching test_intents_en_us.py) rather than a fresh session per row: a
 per-row unique session id was observed, directly against CI, to prevent
@@ -71,9 +70,8 @@ NEGATIVE_UTTERANCES = [
 
 def _expected_names(skill_id: str, intent_label: str) -> set:
     """Candidate dispatched-message types for ``intent_label`` (eg.
-    ``fuster_quotes.intent`` or the bare ``FusterLive`` adapt name),
-    covering both the ``.intent``-suffixed and unsuffixed wire forms --
-    see the module docstring."""
+    ``fuster_quotes.intent``), covering both the ``.intent``-suffixed and
+    unsuffixed wire forms -- see the module docstring."""
     base = intent_label[:-len(".intent")] if intent_label.endswith(".intent") else intent_label
     return {f"{skill_id}:{base}", f"{skill_id}:{intent_label}"}
 
