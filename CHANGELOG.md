@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.7a6](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a6) (2026-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a5...0.0.7a6)
+
+**Merged pull requests:**
+
+- refactor: migrate adapt intents to intent files [\#33](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/33) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.7a5](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a5) (2026-08-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a4...0.0.7a5)
