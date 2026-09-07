@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.0a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.1.0a1) (2026-09-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a8...0.1.0a1)
+
+**Merged pull requests:**
+
+- feat: es-ES, de-DE, gl-ES, pt-PT, eu-ES, it-IT, pt-BR, nl-NL locale parity [\#40](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/40) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.7a8](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.7a8) (2026-09-07)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a7...0.0.7a8)
