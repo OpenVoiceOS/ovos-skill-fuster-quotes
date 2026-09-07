@@ -95,17 +95,29 @@ class TestFusterIntentsEnUS(unittest.TestCase):
     def test_fuster_live(self):
         messages = self._run("when was Fuster alive")
         types = [m.msg_type for m in messages]
-        self.assertTrue(_candidates("FusterLive.intent") & set(types))
+        self.assertTrue(_candidates("fuster_lifespan.intent") & set(types))
         self.assertIn(SpecMessage.SPEAK, types)
 
     def test_fuster_birth(self):
         messages = self._run("when was Joan Fuster born")
         types = [m.msg_type for m in messages]
-        self.assertTrue(_candidates("FusterBirth.intent") & set(types))
+        self.assertTrue(_candidates("fuster_lifespan.intent") & set(types))
         self.assertIn(SpecMessage.SPEAK, types)
 
     def test_fuster_death(self):
         messages = self._run("when did Joan Fuster die")
         types = [m.msg_type for m in messages]
-        self.assertTrue(_candidates("FusterDeath.intent") & set(types))
+        self.assertTrue(_candidates("fuster_lifespan.intent") & set(types))
+        self.assertIn(SpecMessage.SPEAK, types)
+
+    def test_fuster_last_alive(self):
+        messages = self._run("when was Fuster last alive")
+        types = [m.msg_type for m in messages]
+        self.assertTrue(_candidates("fuster_lifespan.intent") & set(types))
+        self.assertIn(SpecMessage.SPEAK, types)
+
+    def test_fuster_still_alive(self):
+        messages = self._run("is Fuster still alive")
+        types = [m.msg_type for m in messages]
+        self.assertTrue(_candidates("fuster_lifespan.intent") & set(types))
         self.assertIn(SpecMessage.SPEAK, types)

@@ -7,8 +7,7 @@ This skill gives quotes and biographical facts about Joan Fuster, a Valencian es
 ## Features
 
 - **Quotes**: answers requests for quotes from Joan Fuster.
-- **Birth and death**: gives the dates when Joan Fuster was born and when he died.
-- **Life events**: answers questions about Fuster's life, such as when he was alive.
+- **Lifespan**: answers when Joan Fuster was born, when he died, and how long he lived, always stating both dates together.
 - **GUI**: shows an image of Joan Fuster together with the quote or fact.
 
 ## Install
@@ -26,6 +25,7 @@ After you install the skill, use voice commands such as:
 - "Tell me a quote from Joan Fuster."
 - "When was Joan Fuster born?"
 - "When did Joan Fuster die?"
+- "Is Joan Fuster still alive?"
 - "Who was Joan Fuster?"
 
 ## Related projects
