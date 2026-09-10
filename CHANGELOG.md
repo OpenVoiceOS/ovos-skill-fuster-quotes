@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.0a1) (2026-09-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.1.0a1...0.2.0a1)
+
+**Merged pull requests:**
+
+- feat: fuster\_lifespan intent and dialog in da-DK [\#42](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/42) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.0a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.1.0a1) (2026-09-07)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.7a8...0.1.0a1)
