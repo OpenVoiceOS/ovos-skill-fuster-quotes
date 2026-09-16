@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.0a2) (2026-09-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.0a1...0.2.0a2)
+
+**Merged pull requests:**
+
+- test: assert dialog-file lines in end2end intent suite [\#45](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/45) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.0a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.0a1) (2026-09-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.1.0a1...0.2.0a1)
