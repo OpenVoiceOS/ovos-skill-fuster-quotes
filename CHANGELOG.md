@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0a4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.0a4) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.0a3...0.2.0a4)
+
+**Merged pull requests:**
+
+- test: golden utterances for every locale [\#49](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/49) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.0a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.0a3) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.0a2...0.2.0a3)
