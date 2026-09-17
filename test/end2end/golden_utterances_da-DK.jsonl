@@ -1,0 +1,9 @@
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "dagens Joan Fuster's citat", "lang": "da-DK", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "giv mig et Joan Fuster citat", "lang": "da-DK", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "giv mig et citat fra Joan Fuster", "lang": "da-DK", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "hvornår blev joan fuster født", "lang": "da-DK", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "hvad er joan fusters fødselsdag", "lang": "da-DK", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "hvornår døde joan fuster", "lang": "da-DK", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "hvem er Joan Fuster", "lang": "da-DK", "intent_label": "who", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "fortæl mig om Joan Fuster", "lang": "da-DK", "intent_label": "who", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "hvem er essayisten Joan Fuster", "lang": "da-DK", "intent_label": "who", "intent_type": "padatious", "needs_manual": false}
