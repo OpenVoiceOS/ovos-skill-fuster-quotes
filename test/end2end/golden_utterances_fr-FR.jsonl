@@ -1,0 +1,9 @@
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "as-tu une citation de Joan Fuster", "lang": "fr-FR", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "donne-moi la citation du jour de Joan Fuster", "lang": "fr-FR", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "donne-moi un aphorisme de Joan Fuster", "lang": "fr-FR", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "quand est né joan fuster", "lang": "fr-FR", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "date de naissance de joan fuster", "lang": "fr-FR", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "quand est mort joan fuster", "lang": "fr-FR", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "qui est Joan Fuster", "lang": "fr-FR", "intent_label": "who", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "qui était Joan Fuster", "lang": "fr-FR", "intent_label": "who", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "qui est Fuster", "lang": "fr-FR", "intent_label": "who", "intent_type": "padatious", "needs_manual": false}
