@@ -24,14 +24,29 @@ from ovoscope import CaptureSession, get_m2v_minicroft
 SKILL_ID = "ovos-skill-fuster-quotes.openvoiceos"
 LANG = "en-US"
 
-# One representative utterance per intent, pulled from the skill's own golden set.
+# One representative utterance per intent, pulled from the skill's own golden
+# set, plus the lifespan phrasings fuster_quotes.blacklist exists for. The
+# blacklist holds "fuster live" and "fuster alive" (OVOS-INTENT-2 4.3: a
+# contiguous whole-word match rejects fuster_quotes), so every live/alive
+# line of fuster_lifespan.intent is here, one expansion each, and the
+# born/die lines that the blacklist does not cover are here too, because
+# the model must route those on its own. The last row is the negative
+# control: a quote request that mentions being alive must not be rejected,
+# which a bare "alive" token once did.
 ROWS = [
     {"utterance": "Any Fusterian thoughts", "intent_label": "fuster_quotes", "dialog": "fuster_quotes"},
     {"utterance": "when was Fuster alive", "intent_label": "fuster_lifespan", "dialog": "lifespan"},
+    {"utterance": "when was Fuster last alive", "intent_label": "fuster_lifespan", "dialog": "lifespan"},
+    {"utterance": "when did Fuster live", "intent_label": "fuster_lifespan", "dialog": "lifespan"},
+    {"utterance": "how long did Fuster live", "intent_label": "fuster_lifespan", "dialog": "lifespan"},
+    {"utterance": "what years did Joan Fuster live", "intent_label": "fuster_lifespan", "dialog": "lifespan"},
+    {"utterance": "is Fuster alive", "intent_label": "fuster_lifespan", "dialog": "lifespan"},
+    {"utterance": "is Joan Fuster still alive", "intent_label": "fuster_lifespan", "dialog": "lifespan"},
     {"utterance": "when was Fuster born", "intent_label": "fuster_lifespan", "dialog": "lifespan"},
     {"utterance": "when did Fuster die", "intent_label": "fuster_lifespan", "dialog": "lifespan"},
     {"utterance": "who is Joan Fuster", "intent_label": "who", "dialog": "who_was_joan_fuster"},
     {"utterance": "who was Fuster", "intent_label": "who", "dialog": "who_was_joan_fuster"},
+    {"utterance": "tell me a Fuster quote about being alive", "intent_label": "fuster_quotes", "dialog": "fuster_quotes"},
 ]
 
 
