@@ -140,3 +140,7 @@ def _make_locale_test_case(lang):
 for _lang in LANGS:
     _cls = _make_locale_test_case(_lang)
     globals()[_cls.__name__] = _cls
+del _lang, _cls  # the loop variables leak into module globals; without this
+# deletion pytest also collects a spurious extra test class literally named
+# "_cls" (bound to whichever locale ran last), which boots a second,
+# redundant MiniCroft for that locale under a different collected name.
