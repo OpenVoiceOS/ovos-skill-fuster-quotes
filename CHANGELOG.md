@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.1a2) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.1a1...0.2.1a2)
+
+**Merged pull requests:**
+
+- test: add m2v-multilingual candidate-default gate [\#37](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/37) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.2.1a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.1a1) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.0a4...0.2.1a1)
