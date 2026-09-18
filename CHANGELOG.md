@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.1a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.0a4...0.2.1a1)
+
+**Merged pull requests:**
+
+- fix: drop leaked \_cls/\_lang loop variables from multilang test collection [\#51](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/51) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.0a4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.0a4) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.0a3...0.2.0a4)
