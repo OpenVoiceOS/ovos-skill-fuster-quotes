@@ -1,0 +1,9 @@
+{
+  "skill_id": "ovos-skill-joan-fuster.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-joan-fuster",
+  "examples": [
+    "melmi i d-ilul yuwan fuster",
+    "melmi i yemmut yuwan fuster",
+    "acḥal i yedder yuwan fuster"
+  ]
+}
