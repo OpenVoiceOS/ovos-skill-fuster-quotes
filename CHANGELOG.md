@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.2a6](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.2a6) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.2a5...0.2.2a6)
+
+**Merged pull requests:**
+
+- translate\(kab\): update skill.json [\#60](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/60) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(kab\): update fuster\_lifespan.intent [\#59](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/59) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [0.2.2a5](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.2a5) (2026-09-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.2a4...0.2.2a5)
