@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-joan-fuster.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-joan-fuster",
+  "name": "Joan Fuster-citat",
+  "description": "Dagens Fuster-citat",
+  "examples": [
+    "Säg mig en aforism av Fuster",
+    "Dagens Fuster-citat.",
+    "Fusters citat idag.",
+    "Berätta ett citat av Joan Fuster."
+  ],
+  "tags": [
+    "daily",
+    "entertainment"
+  ]
+}
