@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.2a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.2a1) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.1a2...0.2.2a1)
+
+**Merged pull requests:**
+
+- fix: partial kab locale parity in ovos-skill-fuster-quotes [\#44](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/44) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.1a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.1a2) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.1a1...0.2.1a2)
@@ -160,19 +168,19 @@
 
 ## [0.0.5a4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a4) (2025-12-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a3...0.0.5a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a2...0.0.5a4)
 
 **Merged pull requests:**
 
 - Update dependency python to 3.14 [\#4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/4) ([renovate[bot]](https://github.com/apps/renovate))
 
-## [0.0.5a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a3) (2025-12-19)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a2...0.0.5a3)
-
 ## [0.0.5a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a2) (2025-12-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a1...0.0.5a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a3...0.0.5a2)
+
+## [0.0.5a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.5a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.5a1...0.0.5a3)
 
 **Merged pull requests:**
 
