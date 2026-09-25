@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.3a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.3a1) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.2a7...0.2.3a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): remove the repeated line from 14 locale files [\#68](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/68) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.2a7](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.2a7) (2026-09-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.2a6...0.2.2a7)
@@ -239,6 +247,38 @@
 **Merged pull requests:**
 
 - Configure Renovate [\#3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.4) (2025-03-06)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.3...0.0.4)
+
+## [0.0.3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.3) (2025-03-06)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.3a1...0.0.3)
+
+**Merged pull requests:**
+
+- Release 0.0.3a1 [\#2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/2) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.3a1) (2025-03-06)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.2...0.0.3a1)
+
+## [0.0.2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.2) (2025-02-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.2a1...0.0.2)
+
+**Merged pull requests:**
+
+- Release 0.0.2a1 [\#1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/1) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.0.2a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.2a1) (2025-02-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.0.1...0.0.2a1)
+
+## [0.0.1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.0.1) (2024-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/914a395170001e14ebe8ad9ea9439cd11e596350...0.0.1)
 
 
 
