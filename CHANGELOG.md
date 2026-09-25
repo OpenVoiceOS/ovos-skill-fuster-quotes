@@ -6,7 +6,6 @@
 
 **Merged pull requests:**
 
-- translate\(kab\): update who.intent [\#56](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/56) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 - translate\(kab\): update who\_was\_joan\_fuster.dialog [\#55](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/55) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
 ## [0.2.2a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.2a1) (2026-09-25)
