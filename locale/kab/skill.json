@@ -1,9 +1,16 @@
 {
   "skill_id": "ovos-skill-joan-fuster.openvoiceos",
   "source": "https://github.com/OpenVoiceOS/ovos-skill-joan-fuster",
+  "name": "Awalen n Yuwan Fuster",
+  "description": "Awal n wass n Fuster",
   "examples": [
-    "melmi i d-ilul yuwan fuster",
-    "melmi i yemmut yuwan fuster",
-    "acḥal i yedder yuwan fuster"
+    "examples[0]: Ini-yi-d anzi n Fuster",
+    "examples[1]: Awal n wass n Fuster.",
+    "examples[2]: Awal n wass n Yuwan Fuster.",
+    "examples[3]: Ini-yi-d awal n Yuwan Fuster."
+  ],
+  "tags": [
+    "tags[0]: yal ass",
+    "tags[1]: asedhu"
   ]
 }
