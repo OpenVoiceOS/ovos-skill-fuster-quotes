@@ -39,7 +39,7 @@ END2END_DIR = Path(__file__).parent
 
 LANGS = [
     "en-US", "ca-ES", "da-DK", "de-DE", "es-ES", "eu-ES", "fr-FR",
-    "gl-ES", "it-IT", "nl-NL", "pt-BR", "pt-PT", "sv-SE",
+    "gl-ES", "it-IT", "nl-NL", "pt-BR", "pt-PT", "sv-SE", "kab",
 ]
 
 NEGATIVE_UTTERANCES = [
