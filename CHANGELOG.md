@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.4a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.4a1) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.3a3...0.2.4a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): restore the missing fa-IR pl-PL ru-RU quote resources [\#75](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/75) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.3a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.3a3) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.3a2...0.2.3a3)
