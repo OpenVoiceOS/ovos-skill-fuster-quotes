@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.4a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.4a2) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.4a1...0.2.4a2)
+
+**Merged pull requests:**
+
+- test: multilang runner reads its locales from the golden files on disk [\#74](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/74) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.4a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.4a1) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.3a3...0.2.4a1)
