@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "به من بگویید فاستر نقل قول", "lang": "fa-IR", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "درباره Fuster بگویید", "lang": "fa-IR", "intent_label": "who", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "FUSTER تاریخ تولد", "lang": "fa-IR", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
