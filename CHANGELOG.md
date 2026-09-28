@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.4a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.4a3) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.4a2...0.2.4a3)
+
+**Merged pull requests:**
+
+- locale: skill.json for the drafted locales, from their own intent lines [\#78](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/78) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.4a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.4a2) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.4a1...0.2.4a2)
