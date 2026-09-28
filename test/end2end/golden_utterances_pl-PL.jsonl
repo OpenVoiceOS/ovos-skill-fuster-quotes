@@ -1,0 +1,3 @@
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "cytat Fuster dnia", "lang": "pl-PL", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Który jest Fuster", "lang": "pl-PL", "intent_label": "who", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "fuster urodziny", "lang": "pl-PL", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
