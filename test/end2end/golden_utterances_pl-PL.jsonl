@@ -1,3 +1,9 @@
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "cytat Fuster dnia", "lang": "pl-PL", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Który jest Fuster", "lang": "pl-PL", "intent_label": "who", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "fuster urodziny", "lang": "pl-PL", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Daj mi cytat od Fustera", "lang": "pl-PL", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Co mówi Fuster", "lang": "pl-PL", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "kiedy umarł fuster", "lang": "pl-PL", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "kiedy fuster żył", "lang": "pl-PL", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Opowiedz mi o Fusterze", "lang": "pl-PL", "intent_label": "who", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "kto jest pisarzem Fusterem", "lang": "pl-PL", "intent_label": "who", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}

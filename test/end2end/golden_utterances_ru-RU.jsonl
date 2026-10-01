@@ -1,3 +1,9 @@
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Фустерская цитата дня", "lang": "ru-RU", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Кто такой Фустер?", "lang": "ru-RU", "intent_label": "who", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Когда родился Фустер", "lang": "ru-RU", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Мне нужна цитата Фустера", "lang": "ru-RU", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Что говорит Фустер", "lang": "ru-RU", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "когда фустер умер", "lang": "ru-RU", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Как долго Фустер жил", "lang": "ru-RU", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Расскажи мне о Фастере", "lang": "ru-RU", "intent_label": "who", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "который был писателем Фустером", "lang": "ru-RU", "intent_label": "who", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}

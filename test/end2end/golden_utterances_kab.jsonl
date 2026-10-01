@@ -1,3 +1,9 @@
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "melmi i d-ilul yuwan fuster", "lang": "kab", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": true}
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "melmi i yemmut yuwan fuster", "lang": "kab", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": true}
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "acḥal i yedder yuwan fuster", "lang": "kab", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Efk-iyi-d anzi n Yuwan Fuster", "lang": "kab", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "D acu i d-yeqqaṛ Fuster", "lang": "kab", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Awal n wass n Yuwan Fuster", "lang": "kab", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "anwa i d Yuwan Fuster", "lang": "kab", "intent_label": "who", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "menhu-t Fuster", "lang": "kab", "intent_label": "who", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "ini-yi-d kra ɣef Yuwan Fuster", "lang": "kab", "intent_label": "who", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
