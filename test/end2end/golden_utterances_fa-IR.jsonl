@@ -1,3 +1,9 @@
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "به من بگویید فاستر نقل قول", "lang": "fa-IR", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "درباره Fuster بگویید", "lang": "fa-IR", "intent_label": "who", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "FUSTER تاریخ تولد", "lang": "fa-IR", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "به من نقل قول از Fuster بدهید", "lang": "fa-IR", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "Fuster چه می گوید", "lang": "fa-IR", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "چه سالی زنده بود", "lang": "fa-IR", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "تا چه زمانی زنده می ماند", "lang": "fa-IR", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "نویسنده فاسر کیست", "lang": "fa-IR", "intent_label": "who", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "چه کسی است نویسنده فاسر", "lang": "fa-IR", "intent_label": "who", "intent_type": "padatious", "needs_manual": true, "machine_generated": true}
