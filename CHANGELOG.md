@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.5a1](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.5a1) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.4a3...0.2.5a1)
+
+**Merged pull requests:**
+
+- fix\(fa-IR\): strip the terminal question mark from the intent templates [\#81](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/81) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.4a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.4a3) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.4a2...0.2.4a3)
