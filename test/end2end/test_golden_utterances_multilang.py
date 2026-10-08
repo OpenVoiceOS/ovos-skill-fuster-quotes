@@ -41,6 +41,14 @@ LANGS = sorted(p.stem.split("golden_utterances_", 1)[1]
                for p in END2END_DIR.glob("golden_utterances_*.jsonl"))
 assert LANGS, "no golden_utterances_<lang>.jsonl files found"
 
+LOCALE_ROOT = END2END_DIR.parent.parent / "locale"
+
+
+def test_every_shipping_locale_has_a_golden_file():
+    golden = {p.stem.split("_", 2)[2] for p in END2END_DIR.glob("golden_utterances_*.jsonl")}
+    shipping = {d.name for d in LOCALE_ROOT.iterdir() if d.is_dir() and any(d.rglob("*.intent"))}
+    assert golden == shipping, f"golden files {sorted(golden ^ shipping)} differ from shipping locales"
+
 NEGATIVE_UTTERANCES = [
     ("what's the weather like today", "en-US", "ovos-skill-weather.openvoiceos"),
     ("tell me a joke", "en-US", "ovos-skill-icanhazdadjokes.openvoiceos"),
@@ -50,19 +58,11 @@ NEGATIVE_UTTERANCES = [
 
 def _load_rows(lang):
     path = END2END_DIR / f"golden_utterances_{lang}.jsonl"
-    rows = []
-    needs_manual = 0
+    # needs_manual marks a row no native speaker has vouched for; it still
+    # runs, because an unrun row tests nothing.
     with open(path, encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            row = json.loads(line)
-            if row.get("needs_manual"):
-                needs_manual += 1
-                continue
-            rows.append(row)
-    assert rows or needs_manual, f"{lang}: no golden rows"
+        rows = [json.loads(line) for line in f if line.strip()]
+    assert rows, f"{lang}: no golden rows"
     return rows
 
 
