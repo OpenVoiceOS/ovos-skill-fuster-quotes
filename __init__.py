@@ -1,5 +1,4 @@
 from ovos_workshop.decorators import intent_handler
-from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills.ovos import OVOSSkill
 
 
@@ -20,23 +19,9 @@ class JoanFusterQuotesSkill(OVOSSkill):
         self.speak(utterance, wait=True)
         self.gui.release()
 
-    @intent_handler(IntentBuilder("FusterLive").require('Fuster').require('when').require('live'))
-    def handle_live(self, message):
-        utterance = self.dialog_renderer.render("live", {})
-        self.show_fuster(utterance)
-        self.speak(utterance, wait=True)
-        self.gui.release()
-
-    @intent_handler(IntentBuilder("FusterBirth").require('Fuster').require('birth'))
-    def handle_birth(self, message):
-        utterance = self.dialog_renderer.render("when_was_joan_fuster_born", {})
-        self.show_fuster(utterance)
-        self.speak(utterance, wait=True)
-        self.gui.release()
-
-    @intent_handler(IntentBuilder("FusterDeath").require('Fuster').require('death'))
-    def handle_death(self, message):
-        utterance = self.dialog_renderer.render("when_did_joan_fuster_die", {})
+    @intent_handler("fuster_lifespan.intent")
+    def handle_lifespan(self, message):
+        utterance = self.dialog_renderer.render("lifespan", {})
         self.show_fuster(utterance)
         self.speak(utterance, wait=True)
         self.gui.release()

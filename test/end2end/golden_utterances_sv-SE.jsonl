@@ -1,0 +1,9 @@
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "dagens Joan Fusters citat", "lang": "sv-SE", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "ge mig ett Joan Fuster citat", "lang": "sv-SE", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "ge mig ett citat från Joan Fuster", "lang": "sv-SE", "intent_label": "fuster_quotes", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "när föddes joan fuster", "lang": "sv-SE", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "joan fuster födelsedag", "lang": "sv-SE", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "när dog joan fuster", "lang": "sv-SE", "intent_label": "fuster_lifespan", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "vem är Joan Fuster", "lang": "sv-SE", "intent_label": "who", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "berätta om Joan Fuster", "lang": "sv-SE", "intent_label": "who", "intent_type": "padatious", "needs_manual": false}
+{"skill_id": "ovos-skill-fuster-quotes.openvoiceos", "utterance": "vem är essäisten Joan Fuster", "lang": "sv-SE", "intent_label": "who", "intent_type": "padatious", "needs_manual": false}
