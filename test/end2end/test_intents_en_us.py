@@ -1,19 +1,15 @@
 """End-to-end intent routing tests for the en-US locale.
 
 Each canonical utterance is fired through a real MiniCroft and asserted to
-route to the expected Padatious intent handler AND to speak a dialog line
+route to the expected intent handler AND to speak a dialog line
 drawn from that intent's own ``.dialog`` file. The expected line set is read
 directly from the locale file on disk, independent of the skill handler
 under test, so a handler that speaks the wrong dialog (or the right dialog
 for a different intent) fails here even though it still emits a
 ``ovos.utterance.speak`` message and still matches the correct intent name.
 
-This suite exercises the real (native/swig) ``ovos-padatious`` pipeline --
-the ``end2end`` CI job installs it via ``require_padatious`` -- with no
-``padacioso`` fallback band in the pipeline list. A padacioso rescue path
-would silently mask a real padatious regression (padacioso is a separate,
-pure-python re-implementation trained on the same ``.intent`` samples, so it
-can keep matching even if the actual padatious plugin breaks).
+This suite runs the ``padacioso`` pipeline, the pure-python ``.intent``
+engine, so it needs no native build.
 """
 import time
 import unittest
@@ -61,16 +57,9 @@ _DIALOG_LINES = {
 class TestFusterIntentsEnUS(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        # the padatious models for this skill's .intent files take a while
-        # to train on CI runners, so allow a generous READY window
         cls.minicroft = get_minicroft([SKILL_ID], max_wait=300)
-        # Real padatious trains its neural model in a background thread
-        # *after* the skill/service report "ready" -- a query fired
-        # immediately after boot can race that training and see a
-        # false-negative match. Poll with a real, disposable session
-        # (never "test-session", which every real test below reuses) until
-        # a known-good utterance actually matches, instead of a blind
-        # sleep -- this is a real readiness signal, not a fixed guess.
+        # Poll with a disposable session (never "test-session", which every
+        # test below reuses) until a known-good utterance matches.
         deadline = time.monotonic() + 60
         warmed = False
         inst = cls()
@@ -79,7 +68,7 @@ class TestFusterIntentsEnUS(unittest.TestCase):
             warmed = any(t in _candidates("fuster_quotes.intent") for t in (m.msg_type for m in msgs))
             if not warmed:
                 time.sleep(1)
-        assert warmed, "padatious model never finished warming up within 60s"
+        assert warmed, "no intent matched within 60s of boot"
 
     @classmethod
     def tearDownClass(cls):
@@ -88,8 +77,8 @@ class TestFusterIntentsEnUS(unittest.TestCase):
     def _run(self, text, pipeline=None, session_id="test-session"):
         session = Session(session_id)
         session.pipeline = pipeline or [
-            "ovos-padatious-pipeline-plugin-high",
-            "ovos-padatious-pipeline-plugin-medium",
+            "ovos-padacioso-pipeline-plugin-high",
+            "ovos-padacioso-pipeline-plugin-medium",
         ]
         # blacklisted_intents defaults to None on a fresh Session, which
         # crashes some pipeline plugins (NoneType membership test).
