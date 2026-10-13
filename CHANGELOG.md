@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.5a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.5a3) (2026-10-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.5a2...0.2.5a3)
+
+**Merged pull requests:**
+
+- test: gate natural golden rows per locale on the m2v pipeline [\#84](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/84) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.5a2](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.5a2) (2026-10-08)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.5a1...0.2.5a2)
