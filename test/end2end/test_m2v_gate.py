@@ -2,10 +2,9 @@
 
 Boots the skill under the candidate default engine -- the m2v multilingual
 classifier (``OpenVoiceOS/ovos-m2v-intents-multi-128M-v5``) via ovoscope's
-``get_m2v_minicroft`` -- and replays a representative slice of this skill's
-own golden utterances (``golden_utterances.jsonl``). Padatious stays the
-skill's deterministic floor (see ``test_golden_utterances.py``); this gate
-validates the candidate model that may replace it as the shipping default.
+``get_m2v_minicroft`` -- and replays one template line per intent plus the
+lifespan phrasings that ``fuster_quotes.blacklist`` exists for. The per-locale
+golden gate on the m2v prototype pipeline is ``test_golden_utterances.py``.
 
 Each row asserts both routing (the classifier picks this skill's registered
 intent id) and effect (the rendered ``speak`` text carries real dialog
