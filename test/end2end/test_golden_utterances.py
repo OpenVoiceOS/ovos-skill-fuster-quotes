@@ -38,26 +38,23 @@ TIERS = ("high", "medium", "low")
 MIN_MATCH_RATE = 0.8
 # A locale also fails when any of its intents has fewer matched rows than this.
 MIN_MATCHED_ROWS_PER_INTENT = 1
-# Locales that stay below MIN_MATCH_RATE after natural template lines and a
-# machine-translated pass, as {lang: (measured_rate, reason)}. Such a locale
+# Locales that stay below MIN_MATCH_RATE on the published m2v model with the
+# template lines they ship, as {lang: (measured_rate, reason)}. Such a locale
 # is an expected failure on the rate only. It still fails when an intent
 # matches no row, or when its rate falls more than GAP_TOLERANCE below the
 # measured rate.
 GOLDEN_LOCALE_GAPS = {
-    "de-DE": (8 / 12, "m2v sends 4 of 12 rows to a sibling intent (who, "
-                      "fuster_quotes and fuster_lifespan cross)"),
-    "es-CO": (8 / 12, "m2v sends 4 of 12 rows to fuster_quotes (who and "
-                      "fuster_lifespan rows that name Fuster)"),
-    "fa-IR": (5 / 12, "m2v sends who rows to fuster_lifespan and fuster_quotes "
-                      "rows to who and fuster_lifespan"),
+    "fa-IR": (7 / 12, "m2v sends 4 of 12 rows to who (fuster_quotes and "
+                      "fuster_lifespan rows) and matches 1 fuster_lifespan row "
+                      "to nothing, in each of three runs"),
+    "nl-NL": (8 / 12, "m2v sends 3 of 12 rows to a sibling intent (who and "
+                      "fuster_quotes cross with fuster_lifespan) and matches 1 "
+                      "fuster_lifespan row to nothing, in each of three runs"),
 }
 GAP_TOLERANCE = 0.10
 # Locales whose negatives the published m2v model cannot separate from this
 # skill, as {lang: reason}. Their negatives run as a non-strict expected failure.
-NEGATIVE_ENGINE_GAPS = {
-    "ru-RU": "m2v claims 4 of 5 ru-RU requests for other skills (weather, timer, joke, "
-             "a person), on the dev locale files too, while 9 of 10 ru-RU golden rows route",
-}
+NEGATIVE_ENGINE_GAPS = {}
 # Negative rows that m2v claimed for this skill in two separate runs, as
 # {lang: {utterance: claimed_intent}}. A listed claim is allowed, not required,
 # so a row that flips between boots does not fail the test. Any other claim
