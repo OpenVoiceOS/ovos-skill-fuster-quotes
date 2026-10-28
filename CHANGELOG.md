@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.5a4](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.5a4) (2026-10-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.5a3...0.2.5a4)
+
+**Merged pull requests:**
+
+- test: run the end2end suite on the m2v prototype pipeline [\#87](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/pull/87) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.2.5a3](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/tree/0.2.5a3) (2026-10-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-fuster-quotes/compare/0.2.5a2...0.2.5a3)
