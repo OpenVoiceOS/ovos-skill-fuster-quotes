@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-joan-fuster.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-joan-fuster",
+  "name": "Joan Fusterren esaldiak",
+  "description": "Fusterren eguneko esaldia",
+  "examples": [
+    "Esan Fusterren aforismo bat",
+    "Joan Fusterren eguneko esaldia.",
+    "Eman Fusterren esaldi bat.",
+    "Esan Joan Fusterren esaldi bat."
+  ],
+  "tags": [
+    "eguneroko",
+    "aisialdia"
+  ]
+}
