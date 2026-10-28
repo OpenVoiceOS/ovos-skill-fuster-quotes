@@ -25,9 +25,8 @@ dynamic = ["version"]
 test = [
     "pytest",
     "pytest-timeout",
-    "ovoscope>=1.11.2a1",
-    "ovos-m2v-pipeline>=0.32.0a1",
-    "padacioso>=2.3.4a1",
+    "ovoscope>=1.12.1a1",
+    "ovos-m2v-pipeline>=0.37.3a1",
 ]
 
 [project.urls]
@@ -45,3 +44,6 @@ packages = ["ovos_skill_fuster_quotes"]
 
 [tool.setuptools.dynamic]
 version = { attr = "version.__version__" }
+
+[tool.pytest.ini_options]
+ovoscope_min_routing_rate = 0.80

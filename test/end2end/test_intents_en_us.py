@@ -7,32 +7,18 @@ directly from the locale file on disk, independent of the skill handler
 under test, so a handler that speaks the wrong dialog (or the right dialog
 for a different intent) fails here even though it still emits a
 ``ovos.utterance.speak`` message and still matches the correct intent name.
-
-This suite runs the ``padacioso`` pipeline, the pure-python ``.intent``
-engine, so it needs no native build.
 """
-import time
 import unittest
 from pathlib import Path
 
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
 from ovos_spec_tools import SpecMessage
-from ovoscope import CaptureSession, get_minicroft
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-fuster-quotes.openvoiceos"
 LOCALE_EN_US = Path(__file__).parent.parent.parent / "locale" / "en-US"
-
-
-def _candidates(intent_file: str) -> set:
-    """Different ovos-workshop/pipeline plugin versions normalize the
-    ``.intent`` filename basename on the dispatched match-message type
-    differently -- current OVOS-INTENT-2 naming drops it, older pinned
-    versions keep it. Candidates cover both so the suite isn't pinned to
-    whichever happens to be installed, same rationale as documented in
-    ovos-skill-volume's end2end suite."""
-    base = intent_file[:-len(".intent")] if intent_file.endswith(".intent") else intent_file
-    return {f"{SKILL_ID}:{intent_file}", f"{SKILL_ID}:{base}"}
 
 
 def _dialog_lines(name: str) -> set:
@@ -57,29 +43,16 @@ _DIALOG_LINES = {
 class TestFusterIntentsEnUS(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID], max_wait=300)
-        # Poll with a disposable session (never "test-session", which every
-        # test below reuses) until a known-good utterance matches.
-        deadline = time.monotonic() + 60
-        warmed = False
-        inst = cls()
-        while time.monotonic() < deadline and not warmed:
-            msgs = inst._run("tell me a fuster quote", session_id="warmup")
-            warmed = any(t in _candidates("fuster_quotes.intent") for t in (m.msg_type for m in msgs))
-            if not warmed:
-                time.sleep(1)
-        assert warmed, "no intent matched within 60s of boot"
+        cls.minicroft = get_prototype_minicroft([SKILL_ID], lang="en-US")
 
     @classmethod
     def tearDownClass(cls):
         cls.minicroft.stop()
 
-    def _run(self, text, pipeline=None, session_id="test-session"):
-        session = Session(session_id)
-        session.pipeline = pipeline or [
-            "ovos-padacioso-pipeline-plugin-high",
-            "ovos-padacioso-pipeline-plugin-medium",
-        ]
+    def _run(self, text):
+        session = Session(f"e2e-{abs(hash(text))}")
+        session.lang = "en-US"
+        session.pipeline = PIPELINE
         # blacklisted_intents defaults to None on a fresh Session, which
         # crashes some pipeline plugins (NoneType membership test).
         session.blacklisted_intents = []
@@ -108,7 +81,7 @@ class TestFusterIntentsEnUS(unittest.TestCase):
     def _assert_intent(self, text, intent):
         messages = self._run(text)
         types = [m.msg_type for m in messages]
-        self.assertTrue(_candidates(intent) & set(types))
+        TALLY.assert_routed(text, f"{SKILL_ID}:{intent}", types)
         spoken = [
             m.data.get("utterance", "")
             for m in messages
